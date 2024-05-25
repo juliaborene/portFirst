@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+section{
+    background-color: #8EA7E9;
+    margin-top: -4px;
+}
+
+
+.about-me{
+    background-color: #8EA7E9;
+    display: flex;
+}
+
+
+.about-me h1{
+    font-size: 5rem;
+    font-weight: 400;
+    color: #282828;
+    padding-top: 3rem;
+}
+.about-me p{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 35vw;
+}
+
+
+.dev{
+    display: flex;
+    margin-top: 50px;
+    gap: 55px;
+}
+.dev img{
+    width: 5vw;
+}
+
+.detail h1{
+    font-size: 6rem;
+    line-height: 5rem;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin-left: 8rem;
+    color: rgba(40, 40, 40, 0.2);
+}
+
+
+.projects img{
+    display: flex;
+    width: 23vw;
+    z-index: 1;
+    margin-left: -30rem;
+    margin-top: 7rem;
+}
+
+
+.copy-r{
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+
+
+@media (max-width:1760px){
+    .detail h1{
+        font-size: 5.5rem;
+        margin-left: 3rem;
+    }
+    .about-me{
+        gap: 6rem;
+    }
+    .projects img{
+        margin-left: -34rem;
+    }
+}
+@media (max-width:1680px){
+    .detail h1{
+        font-size: 5.2rem;
+        margin-left: 12rem;
+    }
+    .about-me{
+        gap: 2rem;
+    }
+    .projects img{
+        margin-left: -28rem;
+    }
+}
+
+@media (max-width:1600px){
+    .about-me{
+        gap: 4rem;
+    }
+    .projects img{
+    margin-top: 5rem;
+        margin-left: -30rem;
+        width: 24vw;
+    }
+    .about-me h1{
+        font-size: 4rem;
+        font-weight: 400;
+        color: #282828;
+        padding-top: 2rem;
+    }
+    .about-me p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #282828;
+    }
+    .dev{
+        display: flex;
+        margin-top: 30px;
+        gap: 2rem;
+    }
+    .dev img{
+        width: 5.5vw;
+    }
+    .detail h1{
+        font-size: 5rem;
+        line-height: 4rem;
+        margin-left: 13rem;
+        padding: 0;
+        color: rgba(40, 40, 40, 0.2);
+    }
+}
+
+@media (max-width:1440px){
+
+    .projects img{
+        margin-top: 5rem;
+        margin-left: -27rem;
+        width: 23vw;
+    }
+    .about-me h1{
+        font-size: 3.7rem;
+        padding-top: 1rem;
+    }
+    .about-me p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .dev img{
+        width: 5.8vw;
+    }
+    .detail h1{
+        font-size: 4.5rem;
+        line-height: 3.5rem;
+        margin-left: 10.4rem;
+        padding: 0;
+    }
+}
+@media (max-width:1366px){
+
+    .about-me h1{
+        font-size: 3.3rem;
+        padding-top: 1rem;
+    }
+    .detail h1{
+        font-size: 4.3rem;
+        line-height: 3.5rem;
+        margin-left: 10rem;
+        padding: 0;
+    }
+    .detail p{
+        padding-top: 10px;
+    }
+    .projects img{
+        margin-top: 5rem;
+        margin-left: -25rem;
+        width: 22vw;
+    }
+}
