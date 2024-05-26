@@ -439,12 +439,12 @@ section{
 }
 @media (max-width:400px){
     .detail{
-        margin-top: -43rem;
+        margin-top: -42rem;
     }
     .detail h1{
         font-size: 4rem;
         line-height: 2rem;
-        margin-left: 0;
+        margin-left: -10px;
         color: rgba(40, 40, 40, 0.08);
     }
     .dev{
@@ -452,6 +452,9 @@ section{
     }
     .dev img{
         width: 14vw;
+    }
+    .projects img{
+        margin-left: 0.5rem;
     }
 }
 @media (max-width:360px){
