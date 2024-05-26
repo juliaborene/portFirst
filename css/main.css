@@ -238,7 +238,7 @@
 @media (max-width:430px){
     .about{
         margin-top: 4rem;
-        margin-left: 1rem;
+        margin-left: 0rem;
         text-align: start;
     }
     .about-profile{
@@ -266,5 +266,17 @@
     }
     .link-media i{
         font-size: 3.5rem;
+    }
+}
+@media (max-width:415px){
+    .about p{
+        font-size: 16px;
+        width: 125%;
+    }
+}
+@media (max-width:390px){
+    .about p{
+        font-size: 16px;
+        width: 105%;
     }
 }

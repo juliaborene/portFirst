@@ -64,10 +64,15 @@
 }
 @media (max-width:430px){
     .nav-menu{
-        gap: 12rem;
+        gap: 16rem;
     }
     .nav-menu img{
         width: 14vw;
+    }
+}
+@media (max-width:390px){
+    .nav-menu{
+        gap: 14rem;
     }
 
 }
