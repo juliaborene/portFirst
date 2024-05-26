@@ -85,10 +85,26 @@
     .nav-menu img{
         width: 14vw;
     }
+    .nav-list i{
+        font-size: 28px;
+        color: #282828;
+        background-color: #8EA7E9;
+        padding: 16px 20px;
+        border-radius: 100%;
+        transition: 0.4s ease-in-out;
+    }
 }
 @media (max-width:390px){
     .nav-menu{
         gap: 14rem;
+    }
+    .nav-list i{
+        font-size: 28px;
+        color: #282828;
+        background-color: #8EA7E9;
+        padding: 16px 20px;
+        border-radius: 100%;
+        transition: 0.4s ease-in-out;
     }
 }
 @media (max-width:360px){
