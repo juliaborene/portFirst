@@ -306,7 +306,80 @@ section{
         margin-left: 1rem;
     }
 }
-
+@media (max-width:601px){
+    .about-me h1{
+        font-size: 3.5rem;
+        margin-top: 20px;
+        margin-left: 2.5rem;
+    }
+    .about-me p{
+        font-size: 1rem;
+        width: 80%;
+        margin-left: 3rem;
+    }
+    .detail{
+        margin-top: -25rem;
+    }
+    .detail h1{
+        font-size: 6rem;
+        line-height: 3.3rem;
+        margin-left: 0rem;
+        color: rgba(40, 40, 40, 0.08);
+    }
+    .dev{
+        margin-left: 0rem;
+        margin-bottom: 30px;
+    }
+    .dev img{
+        width: 17vw;
+    }
+    .projects{
+        margin-left: 8rem;
+        margin-top: -3rem;
+    }
+    .projects img{
+        width: 45vw;
+        display: inline;
+        margin-left: 1rem;
+    }
+}
+@media (max-width:520px){
+    .about-me h1{
+        font-size: 3.5rem;
+        margin-top: 20px;
+        margin-left: 2.5rem;
+    }
+    .about-me p{
+        font-size: 1rem;
+        width: 80%;
+        margin-left: 3rem;
+    }
+    .detail{
+        margin-top: -27rem;
+    }
+    .detail h1{
+        font-size: 5.4rem;
+        line-height: 3.3rem;
+        margin-left: 0rem;
+        color: rgba(40, 40, 40, 0.08);
+    }
+    .dev{
+        margin-left: 0rem;
+        margin-bottom: 30px;
+    }
+    .dev img{
+        width: 17vw;
+    }
+    .projects{
+        margin-left: 5rem;
+        margin-top: -3rem;
+    }
+    .projects img{
+        width: 50vw;
+        display: inline;
+        margin-left: 1rem;
+    }
+}
 @media (max-width:430px){
     .about-me{
         flex-direction: column-reverse;
@@ -334,7 +407,7 @@ section{
         color: rgba(40, 40, 40, 0.08);
     }
     .dev{
-        margin-left: 0rem;
+        margin-left: -10px;
         margin-bottom: 30px;
     }
     .dev img{
@@ -364,14 +437,14 @@ section{
         color: rgba(40, 40, 40, 0.08);
     }
 }
-@media (max-width:390px){
+@media (max-width:400px){
     .detail{
         margin-top: -43rem;
     }
     .detail h1{
         font-size: 4rem;
         line-height: 2rem;
-        margin-left: -0.5rem;
+        margin-left: 0;
         color: rgba(40, 40, 40, 0.08);
     }
     .dev{
@@ -390,5 +463,8 @@ section{
         line-height: 2rem;
         margin-left: -0.5rem;
         color: rgba(40, 40, 40, 0.08);
+    }
+    .projects img{
+        margin-left: 0rem;
     }
 }
